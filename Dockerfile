@@ -3,7 +3,7 @@ MAINTAINER Fu Cheng <alexcheng1982@gmail.com>
 
 # Install dependencies
 RUN apt-get update
-RUN apt-get -y install unzip curl openjdk-7-jdk
+RUN apt-get -y install unzip curl openjdk-7-jre-headless
 RUN cd /tmp && curl -L -O http://dist.sonar.codehaus.org/sonarqube-4.4.zip && unzip sonarqube-4.4.zip && mv sonarqube-4.4 /opt/sonar
 
 # Update SonarQube configuration
