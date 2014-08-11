@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
+MAINTAINER Fu Cheng <alexcheng1982@gmail.com>
 
 # Install dependencies
 RUN apt-get update

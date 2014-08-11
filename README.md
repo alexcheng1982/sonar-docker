@@ -1,4 +1,4 @@
-sonar-docker
+Dockerfile for SonarQube 4.4
 ============
 
 Dockerfile to create [SonarQube](http://www.sonarqube.org/) 4.4 server with existing MySQL server.
